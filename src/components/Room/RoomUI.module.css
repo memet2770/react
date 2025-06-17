@@ -1,0 +1,44 @@
+/* src/styles/RoomUI.css */
+
+.room-panel {
+  position: absolute;
+  background: #f1f1f1;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  z-index: 10;
+  max-width: 260px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.room-panel.dark {
+  background: #333;
+  color: #fff;
+}
+
+.room-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+  user-select: none;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-input {
+  width: 60px;
+  margin-left: 4px;
+}
+
+.room-button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

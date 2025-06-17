@@ -1,0 +1,31 @@
+.texture-selector-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.texture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 260px; /* 3 kutunun sığabileceği genişlik */
+}
+
+.texture-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texture-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.texture-image.selected {
+  border: 2px solid blue;
+}
